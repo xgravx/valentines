@@ -1,0 +1,69 @@
+body {
+	background-color: pink;
+}
+
+h1 {
+	font-size: 20px;
+	font-family: Helvetica;
+	color: red;
+	text-align: center;
+	vertical-align: baseline;
+	margin: 12px;
+	padding: 5px;
+	border: 2px dotted red;
+
+}
+
+p {
+	text-align: center;
+	font-weight: bold;
+	color: red;
+	font-size: 30px;
+}
+
+img {
+	display: block;
+	margin: 0px auto;
+	background-position: center;
+	background-repeat: repeat;
+}
+
+button:hover {
+	background-color: white;
+}
+
+
+
+.yessBtn {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 12px;
+	padding: 5px;
+	border: 2px dotted black;
+	height: 50px;
+	width: 100px;
+	background-color: lightgreen;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+
+
+
+.nooBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 12px;
+	padding: 5px;
+	border: 2px dashed black;
+	height: 50px;
+	width: 100px;
+	background-color: red;
+	font-size: 15px;
+	font-weight: bold;
+}
+
